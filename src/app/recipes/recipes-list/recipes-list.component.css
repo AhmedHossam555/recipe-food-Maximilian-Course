@@ -1,0 +1,4 @@
+.div-con:hover {
+    background-color: #ddd;
+    transition: 0.3s;
+}

@@ -1,0 +1,15 @@
+
+<div class="row">
+    <div class="col-10">
+        <app-shopping-edit 
+         (shoppingRemove)="ingredients.splice(-1,1)"
+         (shoppingClear)="ingredients.length = 0 "></app-shopping-edit>
+        <hr>
+        <ul class="list-group">
+           <a  *ngFor="let ingred of ingredients; let i = index"
+            class="list-group-item"
+             style="cursor: pointer;"
+            (click)="onEditItem(i)"  > {{ingred.name}} ({{ingred.amount}}) </a>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+
+.box {
+    padding: 10px;
+    margin-bottom: 4px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.actived {
+    background-color: #0d6efd;
+    display: block;
+}
+.actived .box {
+    color: #fff;
+} 

@@ -1,0 +1,12 @@
+<a  routerLinkActive="actived"   [routerLink]="[index]"
+ class="text-decoration-none text-dark"  >
+    <div class="box">
+        <div>
+            <h4> {{recipe?.name}} </h4>
+            <p> {{recipe?.description}} </p>
+        </div>
+        <span>
+            <img src="{{recipe?.imagePath}}" alt="{{recipe?.name}}" style="height: 60px; width: 100px" >
+        </span>
+    </div>
+</a>
